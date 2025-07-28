@@ -1,0 +1,82 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: black;
+            /* background: black; */
+        }
+        header {
+            background-image: url(Medias/images/nouv.png);
+            background-size: cover;
+            color: black;
+            padding: 150px;
+            margin: 0;
+            text-align: center;
+        }
+
+        header h1 {
+            background-color: rgba(255, 255, 255, 0.329);
+            color: rgba(559, 559, 559, 5.339);
+            background-color:rgba(255, 255, 255, 0.329);
+            
+        }
+
+        .container {
+            transform: translateY(10px);
+            max-width: 1100px;
+            margin: 20px auto;
+            /* padding: 20px; */
+            
+        }
+        .product {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;  /*pour aligner les éléments au centre comme price et ajouter au panier*/
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;  /* mettre de l'espacement entre les produits */
+            border-radius: 8px;
+            box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 150px;
+            border-radius: 5px;
+            box-shadow: 0 2px 0 rgba(0,0,0,0.1);
+        }
+        .product-info {
+            flex: 1;    /*pour que le texte prenne tout l'espace disponible */
+            margin-left: 20px; 
+        }
+        .product h3 {
+            margin: 0;
+        }
+        .price {
+            font-weight: bold;
+            color: #3498db;
+        }
+        .btn {
+            background: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            /* cursor: pointer; */
+        }
+
+        footer {
+            background-color: wheat;
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 18px;
+            /* position: relative; */
+            margin-top: 20px;
+        }
+
+        .formulaire {
+           padding: 15px;
+           border-radius: 8px;
+           box-shadow: 10px 10px 10px 10px rgba(2, 2, 2, 1.1);
+           margin-right:  10px;
+        }
+       
